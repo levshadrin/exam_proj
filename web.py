@@ -13,7 +13,7 @@ def hello_world():
 #         lastname = request.values.get('lastname')
 #         requests.post(REST_URL, json={'firstname':firstname, 'lastname':lastname})
 #     result = requests.get(REST_URL).json()
-#     return render_template("index.html.j2", result=result)
+    # return render_template("index.html.j2", result=result)
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
