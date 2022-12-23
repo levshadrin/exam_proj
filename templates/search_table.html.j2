@@ -1,0 +1,18 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First name</th>
+            <th scope="col">Last name</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in people_items %}
+        <tr>
+            <th scope="row">{{ loop.index }}</th>
+            <td>{{ item.firstname }}</td>
+            <td>{{ item.lastname }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

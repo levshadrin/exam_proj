@@ -10,6 +10,10 @@ services:
       - "rest"
     volumes:
       - ./:/app
+      # - ./templates:/app/templates 
+      # - ./web.py:/app/web.py
+    environment:
+      - "REST_URL=http://rest:5000/people/"
   rest:
     build:
       context: .

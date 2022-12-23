@@ -1,0 +1,23 @@
+{
+  "name": "exam_proj",
+  "version": "1.0.0",
+  "description": "Web Dev DH exam project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levshadrin/exam_proj.git"
+  },
+  "author": "Lev Shadrin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/levshadrin/exam_proj/issues"
+  },
+  "homepage": "https://github.com/levshadrin/exam_proj#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3"
+  }
+}
